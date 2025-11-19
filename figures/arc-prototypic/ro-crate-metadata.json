@@ -1,0 +1,266 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "ARC Prototypic Diagram Collection",
+      "description": "A collection of SVG diagrams illustrating ARC prototypic workflows, metadata structures, SOPs, and data maps.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "arc-prototypic-assay-identify.svg"
+        },
+        {
+          "@id": "arc-prototypic-assay-labprocess1-extraction.svg"
+        },
+        {
+          "@id": "arc-prototypic-assay-labprocess2-measurement.svg"
+        },
+        {
+          "@id": "arc-prototypic-assay-modular1.svg"
+        },
+        {
+          "@id": "arc-prototypic-assay-modular2.svg"
+        },
+        {
+          "@id": "arc-prototypic-assay-sop-proteomics.svg"
+        },
+        {
+          "@id": "arc-prototypic-assay-sop.svg"
+        },
+        {
+          "@id": "arc-prototypic-assay-sugar.svg"
+        },
+        {
+          "@id": "arc-prototypic-datamap-fragment-selectors1.svg"
+        },
+        {
+          "@id": "arc-prototypic-datamap-fragment-selectors2.svg"
+        },
+        {
+          "@id": "arc-prototypic-datamap.svg"
+        },
+        {
+          "@id": "arc-prototypic-metadata-missing.svg"
+        },
+        {
+          "@id": "arc-prototypic-metadata-table-add-characteristic.svg"
+        },
+        {
+          "@id": "arc-prototypic-metadata-table-add-parameter.svg"
+        },
+        {
+          "@id": "arc-prototypic-metadata-table-representation.svg"
+        },
+        {
+          "@id": "arc-prototypic-metadata.svg"
+        },
+        {
+          "@id": "arc-prototypic-study-divide-conquer.svg"
+        },
+        {
+          "@id": "arc-prototypic-study-identify.svg"
+        },
+        {
+          "@id": "arc-prototypic-study-parameterization.svg"
+        },
+        {
+          "@id": "arc-prototypic-study-protocolref.svg"
+        },
+        {
+          "@id": "arc-prototypic-workflows-cwl1.svg"
+        },
+        {
+          "@id": "arc-prototypic-workflows-cwl2.svg"
+        },
+        {
+          "@id": "arc-prototypic-workflows-virtual.svg"
+        },
+        {
+          "@id": "arc-prototypic-workflows1.svg"
+        },
+        {
+          "@id": "arc-prototypic-workflows2.svg"
+        },
+        {
+          "@id": "arc-prototypic.svg"
+        }
+      ]
+    },
+    {
+      "@id": "#timo-muehlhaus",
+      "@type": "Person",
+      "name": "Timo Mühlhaus",
+      "identifier": [
+        "https://orcid.org/0000-0003-3925-6778",
+        "github:muehlhaus"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-3925-6778",
+        "https://github.com/muehlhaus"
+      ]
+    },
+    {
+      "@id": "#heinrich-lukas-weil",
+      "@type": "Person",
+      "name": "Heinrich Lukas Weil",
+      "identifier": [
+        "https://orcid.org/0000-0003-1945-6342",
+        "github:HLWeil"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-1945-6342",
+        "https://github.com/HLWeil"
+      ]
+    },
+    {
+      "@id": "arc-prototypic-assay-identify.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay identify diagram"
+    },
+    {
+      "@id": "arc-prototypic-assay-labprocess1-extraction.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay lab process 1 – extraction"
+    },
+    {
+      "@id": "arc-prototypic-assay-labprocess2-measurement.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay lab process 2 – measurement"
+    },
+    {
+      "@id": "arc-prototypic-assay-modular1.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay modular workflow 1"
+    },
+    {
+      "@id": "arc-prototypic-assay-modular2.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay modular workflow 2"
+    },
+    {
+      "@id": "arc-prototypic-assay-sop-proteomics.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay SOP (proteomics)"
+    },
+    {
+      "@id": "arc-prototypic-assay-sop.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay SOP"
+    },
+    {
+      "@id": "arc-prototypic-assay-sugar.svg",
+      "@type": "File",
+      "name": "ARC prototypic assay sugar configuration"
+    },
+    {
+      "@id": "arc-prototypic-datamap-fragment-selectors1.svg",
+      "@type": "File",
+      "name": "ARC prototypic datamap – fragment selectors 1"
+    },
+    {
+      "@id": "arc-prototypic-datamap-fragment-selectors2.svg",
+      "@type": "File",
+      "name": "ARC prototypic datamap – fragment selectors 2"
+    },
+    {
+      "@id": "arc-prototypic-datamap.svg",
+      "@type": "File",
+      "name": "ARC prototypic datamap"
+    },
+    {
+      "@id": "arc-prototypic-metadata-missing.svg",
+      "@type": "File",
+      "name": "ARC prototypic metadata – missing"
+    },
+    {
+      "@id": "arc-prototypic-metadata-table-add-characteristic.svg",
+      "@type": "File",
+      "name": "ARC prototypic metadata table – add characteristic"
+    },
+    {
+      "@id": "arc-prototypic-metadata-table-add-parameter.svg",
+      "@type": "File",
+      "name": "ARC prototypic metadata table – add parameter"
+    },
+    {
+      "@id": "arc-prototypic-metadata-table-representation.svg",
+      "@type": "File",
+      "name": "ARC prototypic metadata table representation"
+    },
+    {
+      "@id": "arc-prototypic-metadata.svg",
+      "@type": "File",
+      "name": "ARC prototypic metadata overview"
+    },
+    {
+      "@id": "arc-prototypic-study-divide-conquer.svg",
+      "@type": "File",
+      "name": "ARC prototypic study – divide & conquer"
+    },
+    {
+      "@id": "arc-prototypic-study-identify.svg",
+      "@type": "File",
+      "name": "ARC prototypic study – identify"
+    },
+    {
+      "@id": "arc-prototypic-study-parameterization.svg",
+      "@type": "File",
+      "name": "ARC prototypic study – parameterization"
+    },
+    {
+      "@id": "arc-prototypic-study-protocolref.svg",
+      "@type": "File",
+      "name": "ARC prototypic study – protocol reference"
+    },
+    {
+      "@id": "arc-prototypic-workflows-cwl1.svg",
+      "@type": "File",
+      "name": "ARC prototypic workflows – CWL example 1"
+    },
+    {
+      "@id": "arc-prototypic-workflows-cwl2.svg",
+      "@type": "File",
+      "name": "ARC prototypic workflows – CWL example 2"
+    },
+    {
+      "@id": "arc-prototypic-workflows-virtual.svg",
+      "@type": "File",
+      "name": "ARC prototypic workflows – virtual workflow"
+    },
+    {
+      "@id": "arc-prototypic-workflows1.svg",
+      "@type": "File",
+      "name": "ARC prototypic workflows 1"
+    },
+    {
+      "@id": "arc-prototypic-workflows2.svg",
+      "@type": "File",
+      "name": "ARC prototypic workflows 2"
+    },
+    {
+      "@id": "arc-prototypic.svg",
+      "@type": "File",
+      "name": "ARC prototypic overview"
+    }
+  ]
+}

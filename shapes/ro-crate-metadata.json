@@ -1,0 +1,240 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Shape collection",
+      "description": "A collection of SVG graphics",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "arabidopsis-leaves.svg"
+        },
+        {
+          "@id": "arabidopsis.svg"
+        },
+        {
+          "@id": "chart-whisker.svg"
+        },
+        {
+          "@id": "heatmap.svg"
+        },
+        {
+          "@id": "peptides.svg"
+        },
+        {
+          "@id": "plate-reader.svg"
+        },
+        {
+          "@id": "reaction-tube-large.svg"
+        },
+        {
+          "@id": "reaction-tubes-large.svg"
+        },
+        {
+          "@id": "reaction-tubes-small.svg"
+        }
+      ]
+    },
+    {
+      "@id": "arabidopsis-leaves.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Arabidopsis leaves",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "arabidopsis.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Arabidopsis plant outline",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "chart-whisker.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Whisker chart diagram",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "heatmap.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Heatmap visualization",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "peptides.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Peptide diagram",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "plate-reader.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Microplate reader graphic",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "reaction-tube-large.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Reaction tube (large)",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "reaction-tubes-large.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Reaction tubes (large set)",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "reaction-tubes-small.svg",
+      "@type": "File",
+      "encodingFormat": "image/svg+xml",
+      "name": "Reaction tubes (small set)",
+      "creator": [
+        {
+          "@id": "#timo-muehlhaus"
+        },
+        {
+          "@id": "#heinrich-lukas-weil"
+        }
+      ],
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    {
+      "@id": "#timo-muehlhaus",
+      "@type": "Person",
+      "name": "Timo Mühlhaus",
+      "identifier": [
+        "https://orcid.org/0000-0003-3925-6778",
+        "github:muehlhaus"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-3925-6778",
+        "https://github.com/muehlhaus"
+      ]
+    },
+    {
+      "@id": "#heinrich-lukas-weil",
+      "@type": "Person",
+      "name": "Heinrich Lukas Weil",
+      "identifier": [
+        "https://orcid.org/0000-0003-1945-6342",
+        "github:HLWeil"
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-1945-6342",
+        "https://github.com/HLWeil"
+      ]
+    }
+  ]
+}
