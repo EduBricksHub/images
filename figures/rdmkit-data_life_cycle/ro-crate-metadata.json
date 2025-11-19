@@ -1,0 +1,44 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": { "@id": "./" }
+    },
+
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "RDMkit - Data Life Cycle Diagrams",
+      "description": "A collection of SVG graphics representing the RDMkit Data Life Cycle steps.",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "citation": "RDMkit: The ELIXIR Research Data Management toolkit for Life Sciences. https://rdmkit.elixir-europe.org",
+      
+      "hasPart": [
+        { "@id": "rdmkit-data_life_cycle-01plan.svg" },
+        { "@id": "rdmkit-data_life_cycle-02collect.svg" },
+        { "@id": "rdmkit-data_life_cycle-03process.svg" },
+        { "@id": "rdmkit-data_life_cycle-04analyse.svg" },
+        { "@id": "rdmkit-data_life_cycle-05preserve.svg" },
+        { "@id": "rdmkit-data_life_cycle-06share.svg" },
+        { "@id": "rdmkit-data_life_cycle-07reuse.svg" },
+        { "@id": "rdmkit-data_life_cycle-grey.svg" },
+        { "@id": "rdmkit-data_life_cycle.svg" }
+      ]
+    },
+
+    { "@id": "rdmkit-data_life_cycle-01plan.svg", "@type": "File", "name": "RDMkit data life cycle – plan" },
+    { "@id": "rdmkit-data_life_cycle-02collect.svg", "@type": "File", "name": "RDMkit data life cycle – collect" },
+    { "@id": "rdmkit-data_life_cycle-03process.svg", "@type": "File", "name": "RDMkit data life cycle – process" },
+    { "@id": "rdmkit-data_life_cycle-04analyse.svg", "@type": "File", "name": "RDMkit data life cycle – analyse" },
+    { "@id": "rdmkit-data_life_cycle-05preserve.svg", "@type": "File", "name": "RDMkit data life cycle – preserve" },
+    { "@id": "rdmkit-data_life_cycle-06share.svg", "@type": "File", "name": "RDMkit data life cycle – share" },
+    { "@id": "rdmkit-data_life_cycle-07reuse.svg", "@type": "File", "name": "RDMkit data life cycle – reuse" },
+    { "@id": "rdmkit-data_life_cycle-grey.svg", "@type": "File", "name": "RDMkit data life cycle – grey version" },
+    { "@id": "rdmkit-data_life_cycle.svg", "@type": "File", "name": "RDMkit data life cycle – complete diagram" }
+  ]
+}
